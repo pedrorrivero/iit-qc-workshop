@@ -1,0 +1,49 @@
+---
+layout: default
+permalink: /schedule
+title: Schedule
+published: true
+---
+    <!--background color-->
+    <script type="text/javascript">
+        document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
+    </script>
+
+    <div class="event black-frame">
+      <h1>{{ page.title }}</h1>
+
+        <h2>Day 1</h2>
+        <table class="schedule">
+            <thead>
+                <tr>
+                    <th class="row-1 schedule-time"><center>Time</center></th>
+                    <th class="row-2 schedule-activity"><center>Activity</center></th>
+                </tr>
+            </thead>
+
+            {% for activity in site.data.conference.schedule.day-one %}
+                <tr>
+                    <td>{{ activity.time }}</td>
+                    <td>{{ activity.info }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+
+        <h2>Day 2</h2>
+        <table class="schedule">
+            <thead>
+                <tr>
+                    <th class="row-1 schedule-time"><center>Time</center></th>
+                    <th class="row-2 schedule-activity"><center>Activity</center></th>
+                </tr>
+
+            </thead>
+
+            {% for activity in site.data.conference.schedule.day-two %}
+                <tr>
+                    <td>{{ activity.time }}</td>
+                    <td>{{ activity.info }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
