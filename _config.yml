@@ -6,7 +6,6 @@ url: "pedrorrivero.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-permalink: pretty
 
 logo: "/public/img/TBD.jpg"
 
@@ -17,6 +16,12 @@ include:
 exclude:
   - README.md
   - LICENSE
+
+defaults:
+  - scope:
+      path: _pages
+    values:
+      permalink: /:basename
 
 plugins:
   - jekyll-sitemap
