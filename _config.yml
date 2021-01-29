@@ -1,17 +1,19 @@
+# Meta
 title: IIT QC Workshop
 description: > # this means to ignore newlines until "baseurl:"
   Your description
+
+# URL
 baseurl: "/iit-qc-workshop" # the subpath of your site, e.g. /blog
 url: "pedrorrivero.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-
-logo: "/public/img/TBD.jpg"
+timezone: America/Chicago
 
 include:
+  - _server
   - .htaccess
-  - _pages
 
 exclude:
   - README.md
@@ -19,10 +21,23 @@ exclude:
 
 defaults:
   - scope:
-      path: _pages
+      path: _server
     values:
       permalink: /:basename
+  - scope:
+      path: _public
+    values:
+      sitemap: false
 
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  public:
+    output: true
+    permalink: /:path
+
+# Plugins
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag

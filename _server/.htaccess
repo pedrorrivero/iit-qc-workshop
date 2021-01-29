@@ -1,0 +1,5 @@
+---
+layout: null
+---
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.*
+RewriteRule .* ? [F,L]

@@ -6,3 +6,6 @@ Sitemap: {{ site.url }}/sitemap.xml
 
 User-agent: *
 Disallow: /css
+Disallow: /fonts
+Disallow: /img
+Disallow: /js
