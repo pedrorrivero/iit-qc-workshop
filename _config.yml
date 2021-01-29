@@ -11,7 +11,7 @@ logo: "/public/img/TBD.jpg"
 
 include:
   - .htaccess
-  - _pages/
+  - _pages
 
 exclude:
   - README.md
