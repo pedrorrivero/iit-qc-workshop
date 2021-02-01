@@ -370,6 +370,10 @@ header .intro-text .intro-heading {
     line-height: 40px;
 }
 
+header .intro-text span {
+  background-color: #2224;
+}
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
@@ -391,6 +395,10 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
+    }
+
+    header .intro-text span {
+      background-color: #2226;
     }
 }
 
@@ -711,7 +719,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-image: url('{{ site.baseurl }}/img/map.png');
     background-position: center;
     background-repeat: no-repeat;
 }
