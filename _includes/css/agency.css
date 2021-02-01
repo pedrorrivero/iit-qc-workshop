@@ -349,8 +349,11 @@ header {
 }
 
 header .intro-text {
-    padding-top: 25vh;
+    margin-top: 25vh;
+    padding-top: 50px;
+    margin-bottom: 50px;
     padding-bottom: 50px;
+    background-color: #2224;
 }
 
 header .intro-text .intro-lead-in {
@@ -370,14 +373,13 @@ header .intro-text .intro-heading {
     line-height: 40px;
 }
 
-header .intro-text span {
-  background-color: #2224;
-}
-
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        margin-top: 250px;
+        padding-top: 50px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        background-color: #2224;
     }
 
     header .intro-text .intro-lead-in {
@@ -397,9 +399,6 @@ header .intro-text span {
         line-height: 75px;
     }
 
-    header .intro-text span {
-      background-color: #2226;
-    }
 }
 
 section {
