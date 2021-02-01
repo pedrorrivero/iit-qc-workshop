@@ -1,35 +1,29 @@
-- inverted:
-  img: about.jpeg
-  name: Theme, Vision, Mission
+- name: Theme, Vision, Mission
   info: Read more about our Theme, Vision, and Mission
+  img: about.jpeg
   link: /about
 
-- inverted: timeline-inverted
-  img: calendar.jpeg
-  name: Schedule
+- name: Schedule
   info: Check out the program schedule
+  img: calendar.jpeg
   link: /schedule
 
-- inverted:
-  img: team.jpeg
-  name: Organization
+- name: Organization
   info: Find out about the organization
+  img: team.jpeg
   link: /organization
 
-- inverted: timeline-inverted
-  img: venue.jpeg
-  name: Venue
+- name: Venue
   info: Learn more about our location
+  img: venue.jpeg
   link: /venue
 
-- inverted:
-  img: faq.jpeg
-  name: FAQs
+- name: FAQs
   info: Have a Question? Many answers can be found right here in our FAQs
+  img: faq.jpeg
   link: /faqs
 
-- inverted: timeline-inverted
-  img: booklet.png
-  name: Event Booklet
+- name: Event Booklet
   info: View or Download our event booklet
+  img: booklet.png
   link: /booklet

@@ -1,33 +1,34 @@
 <!-- About Section -->
 <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted"></h3>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">About</h2>
+        <h3 class="section-subheading text-muted"></h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
+          {% assign inverted = false %}
+          {% for about_data in site.data.about %}
+            <li class="{% if inverted %}timeline-inverted{% assign inverted = false %}{% else %}{% assign inverted = true%}{% endif %}">
+              <div class="timeline-image">
+                <img class="img-circle img-responsive" src="{{ about_data.img | prepend: "/img/icons/" | relative_url }}" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>{{ about_data.name }}</h4>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        {% for about_data in site.data.about %}
-                            <li class="{{ about_data.inverted }}">
-                                <div class="timeline-image">
-                                    <img class="img-circle img-responsive" src="{{ about_data.img | prepend: "/img/icons/" | relative_url }}" alt="">
-                                </div>
-                                <div class="timeline-panel">
-                                    <div class="timeline-heading">
-                                        <h4>{{ about_data.name }}</h4>
-                                    </div>
-                                    <div class="timeline-heading">
-                                        <p class="text-muted">{{ about_data.info }}</p>
-                                    </div>
-                                    <a href="{{ about_data.link | relative_url }}" class="page-scroll btn btn-sm">Learn More</a>
-                                </div>
-                            </li>
-                        {% endfor %}
-                    </ul>
+                <div class="timeline-heading">
+                  <p class="text-muted">{{ about_data.info }}</p>
                 </div>
-            </div>
-        </div>
-    </section>
+                <a href="{{ about_data.link | relative_url }}" class="page-scroll btn btn-sm">Learn More</a>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
