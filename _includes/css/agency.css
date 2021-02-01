@@ -25,7 +25,7 @@ body {
     width: 100%;
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #{{ site.colors.text }};
+    color: {{ site.colors.text }};
 }
 
 @media screen and (max-width : 1200px){
@@ -41,11 +41,11 @@ body {
 }
 
 .text-muted {
-    color: #{{ site.colors.muted }};
+    color: {{ site.colors.muted }};
 }
 
 .text-primary {
-    color: #{{ site.colors.primary }};
+    color: {{ site.colors.primary }};
 }
 
 p {
@@ -66,14 +66,14 @@ a.active {
 }
 
 a {
-    color: #{{ site.colors.primary }};
+    color: {{ site.colors.primary }};
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.colors.secondary }};
+    color: {{ site.colors.secondary }};
 }
 
 h1,
@@ -110,12 +110,12 @@ aside.clients,
 }
 
 .btn-primary {
-    border-color: #{{ site.colors.primary }};
+    border-color: {{ site.colors.primary }};
     text-transform: uppercase;
     font-family: {{ site.font.primary }};
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.colors.primary }};
+    background-color: {{ site.colors.primary }};
 }
 
 .btn-primary:hover,
@@ -123,9 +123,9 @@ aside.clients,
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #{{ site.colors.primary }};
+    border-color: {{ site.colors.primary }};
     color: #fff;
-    background-color: #{{ site.colors.secondary }};
+    background-color: {{ site.colors.secondary }};
 }
 
 .btn-primary:active,
@@ -149,12 +149,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #{{ site.colors.primary }};
-    background-color: #{{ site.colors.primary }};
+    border-color: {{ site.colors.primary }};
+    background-color: {{ site.colors.primary }};
 }
 
 .btn-primary .badge {
-    color: #{{ site.colors.primary }};
+    color: {{ site.colors.primary }};
     background-color: #fff;
 }
 
@@ -172,8 +172,8 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-sm, .btn-xl {
     color: #fff;
-    background-color: #{{ site.colors.primary }};
-    border-color: #{{ site.colors.primary }};
+    background-color: {{ site.colors.primary }};
+    border-color: {{ site.colors.primary }};
     border-radius: 3px;
     text-transform: uppercase;
     font-family: {{ site.font.primary }};
@@ -188,9 +188,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.colors.primary }};
+    border-color: {{ site.colors.primary }};
     color: #fff;
-    background-color: #{{ site.colors.secondary }};
+    background-color: {{ site.colors.secondary }};
 }
 
 .btn-sm:active,
@@ -231,31 +231,31 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #{{ site.colors.primary }};
-    background-color: #{{ site.colors.primary }};
+    border-color: {{ site.colors.primary }};
+    background-color: {{ site.colors.primary }};
 }
 
 .btn-sm .badge,
 .btn-xl .badge {
-    color: #{{ site.colors.primary }};
+    color: {{ site.colors.primary }};
     background-color: #fff;
 }
 
 .navbar-default {
     border-color: transparent;
-    background-color: #{{ site.colors.navbar }};
+    background-color: {{ site.colors.navbar }};
 }
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.colors.primary }};
+    color: {{ site.colors.primary }};
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.colors.secondary }};
+    color: {{ site.colors.secondary }};
 }
 
 .navbar-default .navbar-collapse {
@@ -263,8 +263,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.colors.primary }};
-    background-color: #{{ site.colors.primary }};
+    border-color: {{ site.colors.primary }};
+    background-color: {{ site.colors.primary }};
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -273,7 +273,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #{{ site.colors.primary }};
+    background-color: {{ site.colors.primary }};
 }
 
 .navbar-default .nav li a {
@@ -287,19 +287,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.colors.primary }};
+    color: {{ site.colors.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #{{ site.colors.primary }};
+    background-color: {{ site.colors.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #{{ site.colors.secondary }};
+    background-color: {{ site.colors.secondary }};
 }
 
 @media(min-width:768px) {
@@ -326,7 +326,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #{{ site.colors.navbar }};
+        background-color: {{ site.colors.navbar }};
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -445,7 +445,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: #{{ site.colors.primary }};
+    background: {{ site.colors.primary }};
 }
 
 #speakers .speakers-item .speakers-link .speakers-hover:hover {
@@ -738,7 +738,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #{{ site.colors.primary }};
+    border-color: {{ site.colors.primary }};
     box-shadow: none;
 }
 
@@ -820,7 +820,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #{{ site.colors.primary }};
+    background-color: {{ site.colors.primary }};
 }
 
 .btn:focus,
@@ -902,7 +902,7 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #{{ site.colors.primary }};
+    background: {{ site.colors.primary }};
 }
 
 ::selection {
@@ -919,5 +919,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #{{ site.colors.primary }};
+    webkit-tap-highlight-color: {{ site.colors.primary }};
 }

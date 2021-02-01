@@ -12,7 +12,7 @@
         <ul class="timeline">
           {% assign inverted = false %}
           {% for about_data in site.data.about %}
-            <li class="{% if inverted %}timeline-inverted{% assign inverted = false %}{% else %}{% assign inverted = true%}{% endif %}">
+            <li class="{% if inverted %}timeline-inverted{% assign inverted = false %}{% else %}{% assign inverted = true %}{% endif %}">
               <div class="timeline-image">
                 <img class="img-circle img-responsive" src="{{ about_data.img | prepend: "/img/icons/" | relative_url }}" alt="">
               </div>

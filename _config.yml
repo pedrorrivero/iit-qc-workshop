@@ -10,12 +10,12 @@ description: > # this means to ignore newlines until "baseurl:"
   Your description
 
 # Theme
-colors: # hex-codes without the leading hash
-  primary: BB271A
-  secondary: EA3223
-  navbar: 222
-  text: 00283C
-  muted: 777
+colors:
+  primary: '#BB271A'
+  secondary: '#EA3223'
+  navbar: '#222'
+  text: '#00283C'
+  muted: '#777'
 font:
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
@@ -53,6 +53,7 @@ collections:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+
 
 # social:
 #   name: Your Facebook Page
