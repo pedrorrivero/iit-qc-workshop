@@ -20,7 +20,7 @@ published: true
                 </tr>
             </thead>
 
-            {% for activity in site.data.conference.schedule.day-one %}
+            {% for activity in site.data.schedule.day-one %}
                 <tr>
                     <td>{{ activity.time }}</td>
                     <td>{{ activity.info }}</td>
@@ -38,7 +38,7 @@ published: true
 
             </thead>
 
-            {% for activity in site.data.conference.schedule.day-two %}
+            {% for activity in site.data.schedule.day-two %}
                 <tr>
                     <td>{{ activity.time }}</td>
                     <td>{{ activity.info }}</td>

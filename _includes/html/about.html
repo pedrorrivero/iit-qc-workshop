@@ -10,7 +10,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
-                        {% for about_data in site.data.conference.about %}
+                        {% for about_data in site.data.about %}
                             <li class="{{ about_data.inverted }}">
                                 <div class="timeline-image">
                                     <img class="img-circle img-responsive" src="{{ about_data.img | prepend: "/img/icons/" | relative_url }}" alt="">

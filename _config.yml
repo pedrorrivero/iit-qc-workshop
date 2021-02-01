@@ -1,11 +1,22 @@
-# Meta
+# URL
+baseurl: "/iit-qc-workshop" # the subpath of your site, e.g. /blog
+url: "pedrorrivero.github.io" # the base hostname & protocol for your site
+
+# Info
 title: IIT QC Workshop
 description: > # this means to ignore newlines until "baseurl:"
   Your description
 
-# URL
-baseurl: "/iit-qc-workshop" # the subpath of your site, e.g. /blog
-url: "pedrorrivero.github.io" # the base hostname & protocol for your site
+# Theme
+colors: # hex-codes without the leading hash
+  primary: BB271A
+  secondary: EA3223
+  navbar: 222
+  text: 00283C
+  muted: 777
+font:
+  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
+  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
 
 # Build settings
 markdown: kramdown
