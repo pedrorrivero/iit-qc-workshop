@@ -1,29 +1,34 @@
-- name: Theme, Vision, Mission
-  info: Read more about our Theme, Vision, and Mission
+- name: General information
+  info: Read more about the workshop
   img: about.jpeg
   link: /about
 
 - name: Schedule
   info: Check out the program schedule
-  img: calendar.jpeg
+  img: calendar.png
   link: /schedule
+
+- name: Internships
+  info: Find quantum computing internships
+  img: suitcase.png
+  link: /internships
 
 - name: Organization
   info: Find out about the organization
   img: team.jpeg
   link: /organization
 
-- name: Venue
-  info: Learn more about our location
-  img: venue.jpeg
-  link: /venue
+# - name: Venue
+#   info: Learn more about our location
+#   img: venue.jpeg
+#   link: /venue
 
 - name: FAQs
   info: Have a Question? Many answers can be found right here in our FAQs
   img: faq.jpeg
   link: /faqs
 
-- name: Event Booklet
-  info: View or Download our event booklet
-  img: booklet.png
-  link: /booklet
+# - name: Event Booklet
+#   info: View or Download our event booklet
+#   img: booklet.png
+#   link: /booklet

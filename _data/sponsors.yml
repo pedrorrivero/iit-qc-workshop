@@ -1,26 +1,14 @@
-- title: Name
-  name: Name-1
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+- name: IBM
+  img: IBM.png
+  alt: Picture of IBM
+  url: https://www.ibm.com/
 
-- title: Name
-  name: Name-2
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+- name: HRL
+  img: HRL.png
+  alt: Picture of HRL
+  url: http://quantum.hrl.com/
 
-- title: Name
-  name: Name-3
-  subtitle: Position
+- name: Name
   img: TBD.jpg
-  thumbnail: TBD.jpg
   alt: Picture of TBD
-  topic: Topic
-  description: More Info
+  url: More Info

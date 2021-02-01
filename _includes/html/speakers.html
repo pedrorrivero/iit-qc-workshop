@@ -8,19 +8,22 @@
                 </div>
             </div>
             <div class="row">
-            {% for post in site.data.speakers %}
+            {% for speaker in site.data.speakers %}
                 <div class="col-md-4 col-sm-6 speakers-item">
-                    <a href="#{{ post.name }}" class="speakers-link" data-toggle="modal">
+                    <a href="#{{ speaker.tag }}" class="speakers-link" data-toggle="modal">
                         <div class="speakers-hover">
                             <div class="speakers-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="{{ post.thumbnail | prepend: "/img/speakers/" | relative_url }}" class="img-responsive img-centered" alt="">
+                        <img src="{{ speaker.img | prepend: '/img/speakers/' | relative_url }}" class="img-responsive img-centered" alt="{{ speaker.alt }}">
                     </a>
                     <div class="speakers-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
+                        <h4>{{ speaker.name }}</h4>
+                        <p class="text-muted" style="font-style: italic;">
+                          {{ speaker.position }}
+                        </p>
+                        <p class="text-muted">{{ speaker.affiliation }}</p>
                     </div>
                 </div>
             {% endfor %}

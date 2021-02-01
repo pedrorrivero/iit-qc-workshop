@@ -1,26 +1,24 @@
-- title: Name
-  name: Name-1
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+- name: Matthew Otten
+  tag: Matthew-Otten
+  position: Quantum Computing Researcher
+  affiliation: HRL Laboratories
+  img: Matthew-Otten.jpg
+  alt: Picture of Matthew Otten
+  title: Accounting for Errors in Quantum Algorithms via Individual Error Reduction
+  abstract: We discuss a surprisingly simple scheme for accounting (and removal) of error in observables determined from quantum algorithms. A correction to the value of the observable is calculated by first measuring the observable with all error sources active and subsequently measuring the observable with each error source removed separately. We apply this scheme to the variational quantum eigensolver, simulating the calculation of the ground state energy of equilibrium H2 and LiH in the presence of several noise sources, including amplitude damping, dephasing, thermal noise, and correlated noise. We show that this scheme provides a decrease in the needed quality of the qubits by up to two orders of magnitude. In near-term quantum computers, where full fault-tolerant error correction is too expensive, this scheme provides a route to significantly more accurate calculation
 
-- title: Name
-  name: Name-2
-  subtitle: Position
+- name: [Name]
+  tag: tag-2
+  position: [Position]
   img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+  alt: Picture of [TBD]
+  title: [Title]
+  abstract: [Abstract]
 
-- title: Name
-  name: Name-3
-  subtitle: Position
+- name: [Name]
+  tag: tag-3
+  position: [Position]
   img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+  alt: Picture of [TBD]
+  title: [Title]
+  abstract: [Abstract]

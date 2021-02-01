@@ -8,21 +8,13 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <a href="#" class="portfolio-link" data-toggle="modal">
-                        <img src="{{ "/img/TBD.jpg" | relative_url }}" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <a href="#" class="portfolio-link" data-toggle="modal">
-                        <img src="{{ "/img/TBD.jpg" | relative_url }}" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <a href="#" class="portfolio-link" data-toggle="modal">
-                        <img src="{{ "/img/TBD.jpg" | relative_url }}" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
+                {% for sponsor in site.data.sponsors %}
+                  <div class="col-md-4 col-sm-6">
+                      <a href="{{ sponsor.url }}" class="portfolio-link" data-toggle="modal">
+                          <img src="{{ sponsor.img | prepend: 'img/sponsors/' | relative_url }}" class="img-responsive img-centered" alt="{{ sponsor.alt }}">
+                      </a>
+                  </div>
+                {% endfor %}
             </div>
         </div>
     </aside>
