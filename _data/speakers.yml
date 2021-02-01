@@ -10,6 +10,7 @@
 - name: [Name]
   tag: tag-2
   position: [Position]
+  affiliation: [Affiliation]
   img: TBD.jpg
   alt: Picture of [TBD]
   title: [Title]
@@ -17,6 +18,7 @@
 
 - name: [Name]
   tag: tag-3
+  affiliation: [Affiliation]
   position: [Position]
   img: TBD.jpg
   alt: Picture of [TBD]

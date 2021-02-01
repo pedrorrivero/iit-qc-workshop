@@ -1,3 +1,8 @@
+- name: Illinois Tech
+  img: iit.png
+  alt: Picture of Illinois Tech
+  url: https://iit.edu
+
 - name: IBM
   img: IBM.png
   alt: Picture of IBM
@@ -8,7 +13,17 @@
   alt: Picture of HRL
   url: http://quantum.hrl.com/
 
-- name: Name
-  img: TBD.jpg
-  alt: Picture of TBD
-  url: More Info
+- name: Argonne National Laboratory
+  img: ANL.png
+  alt: Picture of Argonne
+  url: http://anl.gov/
+
+- name: Fermilab
+  img: FNAL.png
+  alt: Picture of Fermilab
+  url: http://fnal.gov/
+
+# - name: TBD
+#   img: TBD.png
+#   alt: Picture of TBD
+#   url:

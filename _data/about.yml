@@ -9,7 +9,7 @@
   link: /schedule
 
 - name: Internships
-  info: Find quantum computing internships
+  info: Search for internships
   img: suitcase.png
   link: /internships
 
@@ -24,7 +24,7 @@
 #   link: /venue
 
 - name: FAQs
-  info: Have a Question? Many answers can be found right here in our FAQs
+  info: Many answers can be found in our FAQs
   img: faq.jpeg
   link: /faqs
 
