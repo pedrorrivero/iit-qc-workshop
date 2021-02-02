@@ -33,6 +33,9 @@ include:
 exclude:
   - README.md
   - LICENSE
+  - _pages/booklet.html
+  - _pages/register.html
+  - _pages/venue.html
 
 defaults:
   - scope:
