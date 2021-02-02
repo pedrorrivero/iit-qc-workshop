@@ -1,11 +1,27 @@
 -
-  - time: 8:00 AM - 12:00 PM
-    title: Title
-    speaker: Speaker
-    location: Location
-    abstract: Abstract
-  - time: 12:00 PM - 3:00 PM
-    title: Title
-    speaker: Speaker
-    location: Location
-    abstract: Abstract
+  date: April 30, 2021
+  activities:
+    - time: 8:00 AM - 12:00 PM
+      title: Title
+      speaker: Speaker
+      location: Location
+      abstract: Abstract
+    - time: 12:00 PM - 3:00 PM
+      title: Title
+      speaker: Speaker
+      location: Location
+      abstract: Abstract
+
+# -
+#   date: March 4, 1801
+#   activities:
+#     - time: 8:00 AM - 12:00 PM
+#       title: Title
+#       speaker: Speaker
+#       location: Location
+#       abstract: Abstract
+#     - time: 12:00 PM - 3:00 PM
+#       title: Title
+#       speaker: Speaker
+#       location: Location
+#       abstract: Abstract

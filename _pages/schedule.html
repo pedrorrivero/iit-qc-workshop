@@ -14,7 +14,7 @@ published: true
         {% assign d = 0 %}
         {% for day in site.data.schedule %}
           {% assign d = d | plus: 1 %}
-          <h2>Day {{ d }}</h2>
+          <h2>{{ day.date }}</h2>
           <table class="schedule">
               <thead>
                   <tr>
@@ -23,7 +23,7 @@ published: true
                   </tr>
               </thead>
 
-              {% for activity in day %}
+              {% for activity in day.activities %}
                   <tr>
                       <td>{{ activity.time }}</td>
                       <td>
