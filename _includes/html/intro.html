@@ -36,7 +36,7 @@
                 {% assign now = "now" | date: "%s" %}
                 {% if url %}
                   {% if deadline > now %}
-                    <a href="{{ url }}" class="page-scroll btn btn-xl">
+                    <a href="{{ '/register' | relative_url }}" class="page-scroll btn btn-xl">
                       Register
                     </a>
                   {% else %}

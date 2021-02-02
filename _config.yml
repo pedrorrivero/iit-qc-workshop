@@ -6,11 +6,12 @@ url: "pedrorrivero.github.io" # the base hostname & protocol for your site
 title: IIT QC Workshop
 date: March 4th, 2021
 location: Online
-description: > # this means to ignore newlines until "baseurl:"
+description: > # this means to ignore newlines until "registration:"
   Your description
 registration:
-  url: https://docs.google.com/forms/d/e/1FAIpQLScf_uY-qCdlRvuJNC6zu89Uw76oy9VBfbpTacAZGDeVVO7cVw/viewform?usp=sf_link
   deadline: March 4, 2021
+  url: https://docs.google.com/forms/d/e/1FAIpQLScf_uY-qCdlRvuJNC6zu89Uw76oy9VBfbpTacAZGDeVVO7cVw/viewform?embedded=true
+  embedded: true # Embed form (in google-form: ?embedded=true)
 
 # Theme
 colors:
@@ -34,7 +35,6 @@ exclude:
   - README.md
   - LICENSE
   - _pages/booklet.html
-  - _pages/register.html
   - _pages/venue.html
 
 defaults:
