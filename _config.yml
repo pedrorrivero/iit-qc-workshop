@@ -9,7 +9,7 @@ location: Online
 description: > # this means to ignore newlines until "baseurl:"
   Your description
 registration:
-  url:
+  url: https://docs.google.com/forms/d/e/1FAIpQLScf_uY-qCdlRvuJNC6zu89Uw76oy9VBfbpTacAZGDeVVO7cVw/viewform?usp=sf_link
   deadline: March 4, 2021
 
 # Theme
