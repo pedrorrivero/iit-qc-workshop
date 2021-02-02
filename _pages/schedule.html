@@ -11,38 +11,30 @@ published: true
     <div class="event black-frame">
       <h1>{{ page.title }}</h1>
 
-        <h2>Day 1</h2>
-        <table class="schedule">
-            <thead>
-                <tr>
-                    <th class="row-1 schedule-time"><center>Time</center></th>
-                    <th class="row-2 schedule-activity"><center>Activity</center></th>
-                </tr>
-            </thead>
+        {% assign d = 0 %}
+        {% for day in site.data.schedule %}
+          {% assign d = d | plus: 1 %}
+          <h2>Day {{ d }}</h2>
+          <table class="schedule">
+              <thead>
+                  <tr>
+                      <th class="row-1 schedule-time"><center>Time</center></th>
+                      <th class="row-2 schedule-activity"><center>Activity</center></th>
+                  </tr>
+              </thead>
 
-            {% for activity in site.data.schedule.day-one %}
-                <tr>
-                    <td>{{ activity.time }}</td>
-                    <td>{{ activity.info }}</td>
-                </tr>
-            {% endfor %}
-        </table>
+              {% for activity in day %}
+                  <tr>
+                      <td>{{ activity.time }}</td>
+                      <td>
+                        <u>{{ activity.title }}</u>
+                        <b>{{ activity.speaker }}</b>
+                        <i>{{ activity.location }}</i><br>
+                        {{ activity.abstract }}
+                      </td>
+                  </tr>
+              {% endfor %}
+          </table>
+        {% endfor %}
 
-        <h2>Day 2</h2>
-        <table class="schedule">
-            <thead>
-                <tr>
-                    <th class="row-1 schedule-time"><center>Time</center></th>
-                    <th class="row-2 schedule-activity"><center>Activity</center></th>
-                </tr>
-
-            </thead>
-
-            {% for activity in site.data.schedule.day-two %}
-                <tr>
-                    <td>{{ activity.time }}</td>
-                    <td>{{ activity.info }}</td>
-                </tr>
-            {% endfor %}
-        </table>
     </div>

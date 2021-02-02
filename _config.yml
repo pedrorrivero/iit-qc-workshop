@@ -17,6 +17,7 @@ registration:
 colors:
   primary: '#BB271A'
   secondary: '#EA3223'
+  section: '#FF805B'
   navbar: '#222'
   text: '#00283C'
   muted: '#777'
