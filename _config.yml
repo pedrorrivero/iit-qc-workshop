@@ -17,13 +17,13 @@ registration:
 colors:
   primary: '#BB271A'
   secondary: '#EA3223'
-  section: '#FF805B' # Unused yet
+  section: '#FF805B'
   navbar: '#222'
   text: '#00283C'
   muted: '#777'
-font:
-  primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
-  secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+fonts:
+  primary: 'Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif'
+  secondary: '"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif'
 
 # Build settings
 markdown: kramdown
@@ -55,6 +55,10 @@ collections:
   public:
     output: true
     permalink: /:path
+
+sass:
+  sass_dir: _sass
+  style: expanded
 
 # Plugins
 plugins:

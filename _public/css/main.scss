@@ -1,0 +1,41 @@
+---
+layout: null
+---
+
+// THEME → parse into sass variables
+$colors: (
+  'primary': {{ site.colors.primary }},
+  'secondary': {{ site.colors.secondary }},
+  'section': {{ site.colors.section }},
+  'navbar': {{ site.colors.navbar }},
+  'text': {{ site.colors.text }},
+  'muted': {{ site.colors.muted }},
+);
+$fonts: (
+  'primary': '{{ site.fonts.primary }}',
+  'secondary': '{{ site.fonts.secondary }}',
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+@function font($font-name) {
+  @return map-get($fonts, $font-name);
+}
+
+// EXAMPLE
+body {
+  background-color: color(text);
+  font-family: font(primary);
+}
+
+// IMPORTS → can make use of the previusly defined variables
+@import
+  "404",
+  "about",
+  "event",
+  "form",
+  "more",
+  "schedule",
+  "organization"
+;
