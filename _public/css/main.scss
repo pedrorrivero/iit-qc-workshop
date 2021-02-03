@@ -19,19 +19,13 @@ $fonts: (
   @return map-get($fonts, $font-name);
 }
 
-// EXAMPLE
-body {
-  background-color: color(background);
-  font-family: font(primary);
-}
-
 // IMPORTS → can make use of the previusly defined variables
-// @import
-//   "404",
-//   "about",
-//   "event",
-//   "form",
-//   "more",
-//   "schedule",
-//   "organization"
-// ;
+@import
+  "404",
+  "about",
+  "event",
+  "form",
+  "more",
+  "schedule",
+  "organization"
+;
