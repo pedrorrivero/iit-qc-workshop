@@ -18,6 +18,7 @@ colors:
   primary: '#BB271A'
   secondary: '#EA3223'
   section: '#FF805B'
+  background: '#D4D4D4'
   navbar: '#222'
   text: '#00283C'
   muted: '#777'
