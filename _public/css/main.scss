@@ -1,23 +1,8 @@
 ---
 ---
 
-// THEME → parse into sass variables → move to layout (currently unsupported)
-$colors: (
-{% for color in site.colors %}
-  '{{ color[0] }}': ({{ color[1] }}),
-{% endfor %}
-);
-@function color($color-name) {
-  @return map-get($colors, $color-name);
-}
-$fonts: (
-{% for font in site.fonts %}
-  '{{ font[0] }}': ({{ font[1] }}),
-{% endfor %}
-);
-@function font($font-name) {
-  @return map-get($fonts, $font-name);
-}
+// THEME (sass functions and variables) → move to layout (currently unsupported)
+{% include /css/theme.scss %}
 
 // IMPORTS → can make use of the previusly defined variables
 @import
