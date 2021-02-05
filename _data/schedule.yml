@@ -1,16 +1,77 @@
 -
   date: April 30, 2021
   activities:
-    - time: 8:00 AM - 12:00 PM
-      title: Title
-      speaker: Speaker
-      location: Location
-      abstract: Abstract
-    - time: 12:00 PM - 3:00 PM
-      title: Title
-      speaker: Speaker
-      location: Location
-      abstract: Abstract
+    - time: 9:00 AM - 9:15 AM
+      title: Welcome
+      speaker: Rakshya Khatiwada (FNAL+IIT)
+      location:
+      abstract:
+
+    - time: 9:15 AM - 9:45 AM
+      title: IBM Quantum computing basics
+      speaker: Steven Margolis (IBM)
+      location:
+      abstract: Introduction to IBM's quantum computers and systems.
+    - time: 9:45 AM - 10:15 AM
+      title: DWave Quantum computing basics
+      speaker: Joel Gottlieb (DWave)
+      location:
+      abstract: Introduction to DWave's quantum computers and systems.
+    - time: 10:15 AM - 10:45 AM
+      title: Noise and Error correction
+      speaker: Matthew Otten (HRL labs)
+      location:
+      abstract:
+
+    - time: 10:45 AM - 11:00 AM
+      title: BREAK
+      speaker:
+      location:
+      abstract:
+
+    - time: 11:00 AM - 11:30 AM
+      title: Quantum sensors overview
+      speaker: Rakshya Khatiwada (FNAL+IIT)
+      location:
+      abstract:
+    - time: 11:30 AM - 12:00 PM
+      title: Superconducting qubits in quantum computing and sensors
+      speaker: Robert McDermott (University of Wisconsin Madison)
+      location:
+      abstract:
+    - time: 12:00 PM - 12:30 PM
+      title: Graphene devices and qubits for quantum sensing
+      speaker: KC Fong (Raytheon BBN)
+      location:
+      abstract:
+
+    - time: 12:30 PM - 1:30 PM
+      title: LUNCH BREAK
+      speaker:
+      location:
+      abstract:
+
+    - time: 1:30 PM - 3:00 PM
+      title: IBM tutorial
+      speaker:
+      location:
+      abstract:
+    - time: 3:00 PM - 3:15 PM
+      title: BREAK
+      speaker:
+      location:
+      abstract:
+    - time: 3:15 PM - 4:45 PM
+      title: DWave tutorial
+      speaker:
+      location:
+      abstract:
+
+    - time: 4:45 PM - 5:00 PM
+      title: Closing remarks
+      speaker: Rakshya Khatiwada (FNAL+IIT)
+      location:
+      abstract:
 
 # -
 #   date: March 4, 1801
