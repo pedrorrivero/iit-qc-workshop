@@ -3,7 +3,8 @@ baseurl: "/iit-qc-workshop" # the subpath of your site, e.g. /blog
 url: "pedrorrivero.github.io" # the base hostname & protocol for your site
 
 # Info
-title: IIT QC Workshop
+title: FOQCAS Student Workshop
+subtitle: Fundamentals of Quantum Computing and Sensors for Students
 date: April 30th, 2021
 location: Virtual
 description: > # this means to ignore newlines until "registration:"
