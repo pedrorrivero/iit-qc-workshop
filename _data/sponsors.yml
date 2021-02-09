@@ -1,5 +1,5 @@
 - name: Illinois Tech
-  img: iit.png
+  img: IIT.png
   alt: Picture of Illinois Tech
   url: https://iit.edu
 
@@ -12,6 +12,11 @@
   img: HRL.png
   alt: Picture of HRL
   url: https://quantum.hrl.com/
+
+- name: D-Wave
+  img: DWave.png
+  alt: Picture of D-Wave
+  url: https://www.dwavesys.com/
 
 - name: Argonne National Laboratory
   img: ANL.png
