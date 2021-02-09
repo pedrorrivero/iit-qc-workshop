@@ -1,26 +1,26 @@
- <!-- Portfolio Modals -->
- {% for organizer in site.data.organization %}
-    <div class="portfolio-modal modal fade" id="{{ organizer.name }}" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>{{ organizer.title }}</h2>
-                            <hr class="star-primary">
-                            <img src="{{ organizer.img | prepend: "/img/organization/" | relative_url }}" class="img-responsive img-centered" alt="{{ organizer.alt }}">
-                            <p>{{ organizer.description }}</p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<!-- Portfolio Modals -->
+{% for organizer in site.data.organization %}
+  <div class="portfolio-modal modal fade" id="{{ organizer.tag }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
         </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>{{ organizer.name }}</h2>
+              <hr class="star-primary">
+              <img src="{{ organizer.img | prepend: "/img/organization/" | relative_url }}" class="img-responsive img-centered" alt="{{ organizer.alt }}">
+              <p>{{ organizer.about }}</p>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 {% endfor %}

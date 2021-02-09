@@ -15,8 +15,7 @@
               <h2>{{ speaker.name }}</h2>
               <hr class="star-primary">
               <img src="{{ speaker.img | prepend: "/img/speakers/" | relative_url }}" class="img-responsive img-centered" alt="{{ speaker.alt }}">
-              <h3>Title: {{ speaker.title }}</h3>
-              <p>{{ speaker.abstract }}</p>
+              <p>{{ speaker.about }}</p>
               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
           </div>

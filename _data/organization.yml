@@ -1,26 +1,63 @@
-- title: Name
-  name: Name-1
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+- name: John F. Zasadzinski
+  tag: John-Zasadzinski
+  position: Paul and Suzi Schutt Endowed Chair in Science • Professor of Physics
+  affiliation: Illinois Institute of Technology
+  img: John-Zasadzinski.jpg
+  alt: Picture of John Zasadzinski
+  about: >
+    My research interests primarily involve electron tunneling studies of novel superconductors using planar, point-contact and STM junctions. Materials include high temperature superconductors as well as the recently discovered CaC6 and MgB2. We were among the first groups to clearly observe two-band superconductivity in MgB2 and have recently observed very strong coupling in CaC6. Along with Prof. Liam Coffey, we have modified conventional Eliashberg theory to include d-wave pairing to analyze tunneling data in high Tc cuprates. We have shown that the spectral dip feature observed in tunneling spectra can be fit self- consistently and indicates that the pairing is due primarily to a narrow boson spectrum which appears to be the resonant spin excitation observed in neutron scattering.
 
-- title: Name
-  name: Name-2
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+    I also have a renewed interest in the conventional, elemental superconductor Niobium. We are using tunneling spectroscopy to probe the surface superconductivity of Nb at the interface with its native oxide layers. This work has applications for the development of superconducting radio frequency (SRF) cavities which are used for particle accelerators including the proposed international linear collider (ILC). This work is being done in collaboration with Argonne and Fermi National Laboratorie.
 
-- title: Name
-  name: Name-3
-  subtitle: Position
-  img: TBD.jpg
-  thumbnail: TBD.jpg
-  alt: Picture of TBD
-  topic: Topic
-  description: More Info
+- name: Carlo U. Segre
+  tag: Carlo-Segre
+  position: Duchossois Leadership Professor • Professor of Physics • Professor of Materials Science and Engineering
+  affiliation: Illinois Institute of Technology
+  img: Carlo-Segre.jpg
+  alt: Picture of Carlo Segre
+  about: >
+    My research centers around the structure and electronic properties of complex materials including superconducting, magnetic, catalytic, and energy storage materials.
+
+    Experimental techniques used in my research include; material synthesis through arc-melting, powder metallurgy, and advanced chemical methods; structural characterization of the samples performed by x-ray powder diffraction and xray absorption fine structure; and measurement of electronic properties by resistivity, magnetic susceptibility, and x-ray absorption spectroscopy. Specific topics of interest include: structural and electrochemical properties of advanced battery materials; in-situ structural studies of catalytic materials for use in fuel cells; structural and electronic properties of magnetoelectric materials and other perovskite materials prepared in the form of nanoparticles and thin films; local structural studies of structural materials for use in nuclear reactors, including in-situ corrosion studies and characterization of nano-crystalline inclusions in steels; development of x-ray optics for synchrotron radiation experimentation.
+
+    I also am an active participant in the IIT Center for Synchrotron Radiation Research and Instrumentation (CSRRI); serving as Center Director and as Deputy Director of the Materials Research Collaborative Access Team (MRCAT) which operates an experimental facility for materials research at the Advanced Photon Source (APS). I have been involved in the development of crystal optic devices for delivery and detection of x-rays at synchrotron beamlines.
+
+    Since 1992, I have been involved with the International Bridge Building Committee. We organize the Chicago Regional Bridge Building Contest each winter and the International Bridge Building Contest in odd years. This contest has grown, over the past 37 years, to be an integral part of many High School Physical Science curricula.
+
+- name: Rakshya khatiwada
+  tag: Rakshya-khatiwada
+  position: Assistant Professor of Physics
+  affiliation: Illinois Institute of Technology • Fermi National Accelerator Laboratory
+  img: Rakshya-khatiwada.jpg
+  alt: Picture of Rakshya khatiwada
+  about: >
+    Ultra-low noise detector development for Axion Dark Matter eXperiment (ADMX)
+
+    Quantum sensors, qubits, quantum noise-limited devices/amplifiers and their application in precision experiments and dark matter detection, low-noise cryogenic systems
+
+    Physics beyond the Standard Model, fundamental symmetries and interactions, experimental tests of symmetry-violating interactions, spin-dependent and independent interactions between fermions
+
+- name: Matthew Otten
+  tag: Matthew-Otten
+  position: Quantum Computing Researcher
+  affiliation: HRL Laboratories
+  img: Matthew-Otten.jpg
+  alt: Picture of Matthew Otten
+  about: [About]
+
+- name: Pedro Rivero
+  tag: Pedro-Rivero
+  position: Graduate Research Assistant
+  affiliation: Illinois Institute of Technology • Argonne National Laboratory
+  img: Pedro-Rivero.jpg
+  alt: Picture of Pedro Rivero
+  about: [About]
+
+# - name: [Name]
+#   tag: tag-X
+#   position: [Position]
+#   affiliation: [Affiliation]
+#   img: TBD.jpg
+#   alt: Picture of [TBD]
+#   title: [Title]
+#   about: [About]
