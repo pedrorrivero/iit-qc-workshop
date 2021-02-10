@@ -13,7 +13,7 @@
   .schedule-time {
     width: 40%;
   }
-  .schedule-actiity {
+  .schedule-activity {
      width: 60%;
   }
   th, td {
@@ -29,11 +29,11 @@
     text-align: center;
     font-size: 110%;
     a {
-        color: #ff6738;
+        color: color(secondary);
         text-decoration: none;
     }
     b {
-        color: #ff6738;
+        color: color(secondary);
     }
   }
   td + td {
