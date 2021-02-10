@@ -7,11 +7,11 @@
   a {
     color: darkblue;
   }
-  h2, h3, ol, p {
+  h2, h3, ol, ul, p {
     color: black;
     text-align: left;
   }
-  p, ol {
+  p, ol, ul {
     font-size: 110%;
   }
   h1 {
@@ -47,7 +47,7 @@
   h2 {
     font-size: 120%;
   }
-  p, ol, li {
+  p, ol, ul, li {
     font-size: 100%;
   }
 }
