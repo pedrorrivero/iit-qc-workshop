@@ -2,7 +2,7 @@
   tag: Matthew-Otten
   position: Quantum Computing Researcher
   affiliation: HRL Laboratories
-  img: Matthew-Otten.jpg
+  img: Matthew-Otten.jpeg
   alt: Picture of Matthew Otten
   about: [About]
 
@@ -10,7 +10,7 @@
   tag: tag-2
   position: [Position]
   affiliation: [Affiliation]
-  img: TBD.jpg
+  img: TBD.jpeg
   alt: Picture of [TBD]
   title: [Title]
   about: [about]
@@ -19,7 +19,7 @@
   tag: tag-3
   affiliation: [Affiliation]
   position: [Position]
-  img: TBD.jpg
+  img: TBD.jpeg
   alt: Picture of [TBD]
   title: [Title]
   about: [about]
