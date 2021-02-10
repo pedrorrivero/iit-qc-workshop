@@ -1,9 +1,9 @@
-- name: Rakshya khatiwada
-  tag: Rakshya-khatiwada
+- name: Rakshya Khatiwada
+  tag: Rakshya-Khatiwada
   position: Assistant Professor of Physics
   affiliation: Illinois Institute of Technology • Fermilab
   img: Rakshya-Khatiwada.jpeg
-  alt: Picture of Rakshya khatiwada
+  alt: Picture of Rakshya Khatiwada
   bio: >
     Ultra-low noise detector development for Axion Dark Matter eXperiment (ADMX)
 
