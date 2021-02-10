@@ -8,10 +8,10 @@
   img: calendar.png
   link: /schedule
 
-- name: Internships
-  info: Search for internships
+- name: Jobs and internships
+  info: Search for jobs and internship oportunities
   img: suitcase.png
-  link: /internships
+  link: /jobs
 
 - name: Organizing Commitee
   info: Find out about the organizing commitee
