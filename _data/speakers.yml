@@ -1,3 +1,19 @@
+- name: Steven Margolis
+  tag: Steven-Margolis
+  position: [Position]
+  affiliation: IBM
+  img: TBD.jpeg
+  alt: Picture of Steven Margolis
+  bio: [Bio]
+
+- name: Joel Gottlieb
+  tag: Joel-Gottlieb
+  position: [Position]
+  affiliation: D-Wave
+  img: TBD.jpeg
+  alt: Picture of Joel Gottlieb
+  bio: [Bio]
+
 - name: Matthew Otten
   tag: Matthew-Otten
   position: Quantum Computing Researcher
@@ -6,20 +22,50 @@
   alt: Picture of Matthew Otten
   bio: [Bio]
 
+- name: Rakshya Khatiwada
+  tag: Rakshya-Khatiwada
+  position: Assistant Professor
+  affiliation: Illinois Institute of Technology • Fermilab
+  img: Rakshya-Khatiwada.jpeg
+  alt: Picture of Rakshya Khatiwada
+  bio: [Bio]
+
+- name: Robert McDermott
+  tag: Robert-McDermott
+  position: [Position]
+  affiliation: University of Wisconsin Madison
+  img: TBD.jpeg
+  alt: Picture of Robert McDermott
+  bio: [Bio]
+
+- name: KC Fong
+  tag: KC-Fong
+  position: [Position]
+  affiliation: Raytheon BBN
+  img: TBD.jpeg
+  alt: Picture of KC Fong
+  bio: [Bio]
+
+- name: [Name]
+  tag: tag-1
+  position: [Position]
+  affiliation: [Affiliation]
+  img: TBD.jpeg
+  alt: Picture of [TBD]
+  bio: [Bio]
+
 - name: [Name]
   tag: tag-2
   position: [Position]
   affiliation: [Affiliation]
   img: TBD.jpeg
   alt: Picture of [TBD]
-  title: [Title]
   bio: [Bio]
 
-- name: [Name]
-  tag: tag-3
-  affiliation: [Affiliation]
-  position: [Position]
-  img: TBD.jpeg
-  alt: Picture of [TBD]
-  title: [Title]
-  bio: [Bio]
+# - name: [Name]
+#   tag: tag-X
+#   position: [Position]
+#   affiliation: [Affiliation]
+#   img: TBD.jpeg
+#   alt: Picture of [TBD]
+#   bio: [Bio]
