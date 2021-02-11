@@ -14,11 +14,7 @@ published: true
       <p>Below is a list of job and internship oportunities in Quantum Computing.<p>
         <ul>
             {% for job in site.data.jobs %}
-                <li><b>{{ job.position }}</b><br>
-                    <i>{{ job.company }}</i><br>
-                    <u>Dates</u>: {{ job.dates }}<br>
-                    <u>Location</u>: {{ job.location }}<br>
-                    <u>Description</u>: {{ job.description }}<br>
+                <li><b>{{ job.company }}</b><br>
                     {% if job.website %}
                       <u>Website</u>: {{ job.website }}<br>
                     {% endif %}
