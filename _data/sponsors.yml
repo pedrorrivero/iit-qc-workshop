@@ -8,25 +8,10 @@
   alt: Picture of IBM
   url: https://www.ibm.com/
 
-- name: HRL
-  img: HRL.png
-  alt: Picture of HRL
-  url: https://quantum.hrl.com/
-
 - name: D-Wave
   img: DWave.png
   alt: Picture of D-Wave
   url: https://www.dwavesys.com/
-
-- name: Argonne National Laboratory
-  img: ANL.png
-  alt: Picture of Argonne
-  url: https://www.anl.gov/
-
-- name: Fermilab
-  img: FNAL.png
-  alt: Picture of Fermilab
-  url: https://fnal.gov/
 
 # - name: TBD
 #   img: TBD.png
