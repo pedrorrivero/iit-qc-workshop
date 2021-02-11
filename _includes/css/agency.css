@@ -855,6 +855,10 @@ footer {
     left: 0;
 }
 
+footer .text-box {
+  text-align: center;
+}
+
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
