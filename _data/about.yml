@@ -23,10 +23,10 @@
 #   img: venue.jpeg
 #   link: /venue
 
-- name: FAQs
-  info: Many answers can be found in our FAQs
-  img: faq.jpeg
-  link: /faqs
+# - name: FAQs
+#   info: Many answers can be found in our FAQs
+#   img: faq.jpeg
+#   link: /faqs
 
 # - name: Event Booklet
 #   info: View or Download our event booklet

@@ -37,6 +37,7 @@ exclude:
   - README.md
   - LICENSE
   - _pages/booklet.html
+  - _pages/faqs.html
   - _pages/venue.html
 
 defaults:
