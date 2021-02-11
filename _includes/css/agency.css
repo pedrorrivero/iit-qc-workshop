@@ -360,7 +360,7 @@ header .intro-text {
     padding-top: 50px;
     margin-bottom: 50px;
     padding-bottom: 50px;
-    background-color: #2224;
+    background-color: #2225;
 }
 
 header .intro-text .intro-lead-in {
@@ -392,11 +392,49 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        margin-top: 25vh;
+        margin-top: 20vh;
         padding-top: 50px;
         margin-bottom: 50px;
         padding-bottom: 50px;
-        background-color: #2224;
+        background-color: #2225;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: {{ site.fonts.secondary }};
+        font-size: 34px;
+        font-style: normal;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-lead-in-it {
+        margin-bottom: 25px;
+        font-family: {{ site.fonts.secondary }};
+        font-size: 34px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-transform: uppercase;
+        font-family: {{ site.fonts.primary }};
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 65px;
+    }
+
+}
+
+@media(min-width:1024px) {
+    header .intro-text {
+        margin-top: 20vh;
+        padding-top: 50px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        background-color: #2225;
     }
 
     header .intro-text .intro-lead-in {
@@ -421,7 +459,7 @@ header .intro-text .intro-heading {
         padding-right: 20px;
         text-transform: uppercase;
         font-family: {{ site.fonts.primary }};
-        font-size: 75px;
+        font-size: 65px;
         font-weight: 700;
         line-height: 80px;
     }
