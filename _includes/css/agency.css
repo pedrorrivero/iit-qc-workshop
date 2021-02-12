@@ -356,7 +356,7 @@ header {
 }
 
 header .intro-text {
-    margin-top: 25vh;
+    margin-top: 20vh;
     padding-top: 50px;
     margin-bottom: 50px;
     padding-bottom: 50px;
@@ -364,7 +364,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     font-family: {{ site.fonts.secondary }};
     font-size: 28px;
     font-style: normal;
@@ -385,9 +385,46 @@ header .intro-text .intro-heading {
     padding-right: 10px;
     text-transform: uppercase;
     font-family: {{ site.fonts.primary }};
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 45px;
+}
+
+@media(min-width:480px) {
+  header .intro-text {
+    margin-top: 25vh;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    background-color: #2225;
+  }
+
+  header .intro-text .intro-lead-in {
+      margin-bottom: 25px;
+      font-family: {{ site.fonts.secondary }};
+      font-size: 28px;
+      font-style: normal;
+      line-height: 30px;
+  }
+
+  header .intro-text .intro-lead-in-it {
+      margin-bottom: 25px;
+      font-family: {{ site.fonts.secondary }};
+      font-size: 28px;
+      font-style: italic;
+      line-height: 30px;
+  }
+
+  header .intro-text .intro-heading {
+      margin-bottom: 50px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-transform: uppercase;
+      font-family: {{ site.fonts.primary }};
+      font-size: 45px;
+      font-weight: 700;
+      line-height: 50px;
+  }
 }
 
 @media(min-width:768px) {
