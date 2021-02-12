@@ -8,8 +8,8 @@
                 </div>
             </div>
 
-            <div class="row container">
-                <style>
+            <div class="">
+                <!-- <style>
                 .video {
                 position:relative;
                 padding-bottom: 56.25%;
@@ -28,7 +28,16 @@
                 }
                 </style>
 
-                <div class="video"><iframe src="{{ site.data.intro.video }}" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe></div><br>
+                <div class="video"><iframe src="{{ site.data.intro.video }}" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe></div><br> -->
+
+                <div class="intro-text">
+                  {% assign inverted = true %}
+                  {% for item in site.data.intro%}
+                    <div class="intro-text__item {% if inverted %}inverted{% assign inverted = false %}{% else %}{% assign inverted = true %}{% endif %}">
+                      {{ item }}
+                    </div>
+                  {% endfor %}
+                </div>
 
                 <center> <!-- Registration -->
                 {% assign url = site.registration.url %}

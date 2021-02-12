@@ -466,6 +466,47 @@ header .intro-text .intro-heading {
 
 }
 
+#intro .intro-text {
+  margin-bottom: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+#intro .intro-text .intro-text__item {
+  /* margin: 5px;
+  border-radius: 5px; */
+  padding: 40px;
+  width: 80vw;
+  height: 15vh;
+  background-color: #EEE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 1000;
+  line-height: 24px;
+  font-family: {{ site.fonts.primary }};
+}
+
+@media(min-width:1024px) {
+  #intro .intro-text :nth-child(3n+3) {
+    order: 1;
+  }
+  #intro .intro-text .intro-text__item {
+    width: 40vw;
+  }
+}
+
+#intro .intro-text .inverted {
+  background-color: {{ site.colors.primary }};
+  color: white;
+}
+
 section {
     padding: 100px 0;
 }
