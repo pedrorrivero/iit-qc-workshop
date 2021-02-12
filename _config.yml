@@ -10,7 +10,7 @@ location: Virtual - Registration required
 description: > # this means to ignore newlines until "registration:"
   Your description
 registration:
-  deadline: April 30, 2021
+  deadline: April 23, 2021
   url: https://docs.google.com/forms/d/e/1FAIpQLScf_uY-qCdlRvuJNC6zu89Uw76oy9VBfbpTacAZGDeVVO7cVw/viewform?embedded=true
   embedded: true # Embed form (in google-form: ?embedded=true)
 
