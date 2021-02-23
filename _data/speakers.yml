@@ -26,9 +26,10 @@
   tag: Rakshya-Khatiwada
   position: Assistant Professor
   affiliation: Illinois Institute of Technology • Fermilab
-  img: Rakshya-Khatiwada.jpeg
+  img: Rakshya-Khatiwada.jpg
   alt: Picture of Rakshya Khatiwada
-  bio: [Bio]
+  bio: >
+    Expert on low noise cryogenics and quantum sensors for next-generation dark matter detectors
 
 - name: Robert McDermott
   tag: Robert-McDermott

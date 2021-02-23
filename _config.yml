@@ -3,7 +3,7 @@ baseurl: "/iit-qc-workshop" # the subpath of your site, e.g. /blog
 url: "pedrorrivero.github.io" # the base hostname & protocol for your site
 
 # Info
-title: Fundamentals of Quantum Computing and Sensors
+title: Fundamentals of Quantum Computing and Sensing
 subtitle: Step into the second quantum revolution
 date: April 30th, 2021
 location: Virtual - Registration required
