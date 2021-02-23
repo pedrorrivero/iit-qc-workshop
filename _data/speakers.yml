@@ -33,11 +33,12 @@
 
 - name: Robert McDermott
   tag: Robert-McDermott
-  position: [Position]
+  position: Professor
   affiliation: University of Wisconsin Madison
-  img: TBD.jpeg
+  img: Robert-McDermott.jpg
   alt: Picture of Robert McDermott
-  bio: [Bio]
+  bio: >
+    Superconducting qubits (coherence, quantum measurement, scalable control, topological protection); hybrid quantum systems; dark matter detection
 
 - name: KC Fong
   tag: KC-Fong
