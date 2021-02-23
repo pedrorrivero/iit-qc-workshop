@@ -45,31 +45,31 @@
       location:
       abstract:
 
-    - time: 12:30 PM - 1:30 PM
+    - time: 12:30 PM - 12:45 PM
+      title: Closing remarks
+      speaker: Rakshya Khatiwada (FNAL+IIT)
+      location:
+      abstract:
+
+    - time: 12:45 PM - 1:45 PM
       title: LUNCH BREAK
       speaker:
       location:
       abstract:
 
-    - time: 1:30 PM - 3:00 PM
+    - time: 1:45 PM - 3:15 PM
       title: IBM tutorial
       speaker:
       location:
       abstract:
-    - time: 3:00 PM - 3:15 PM
+    - time: 3:15 PM - 3:30 PM
       title: BREAK
       speaker:
       location:
       abstract:
-    - time: 3:15 PM - 4:45 PM
+    - time: 3:30 PM - 5:00 PM
       title: DWave tutorial
       speaker:
-      location:
-      abstract:
-
-    - time: 4:45 PM - 5:00 PM
-      title: Closing remarks
-      speaker: Rakshya Khatiwada (FNAL+IIT)
       location:
       abstract:
 
