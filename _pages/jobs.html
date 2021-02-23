@@ -16,7 +16,7 @@ published: true
             {% for job in site.data.jobs %}
                 <li><b>{{ job.company }}</b><br>
                     {% if job.website %}
-                      <u>Website</u>: {{ job.website }}<br>
+                      <u>Website</u>: <a href="{{ job.website }}">{{ job.website }}</a><br>
                     {% endif %}
                     {% if job.contact %}
                       <u>Contact</u>: {{ job.contact }}<br>
