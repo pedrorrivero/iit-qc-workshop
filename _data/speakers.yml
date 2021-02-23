@@ -16,11 +16,12 @@
 
 - name: Matthew Otten
   tag: Matthew-Otten
-  position: Quantum Computing Researcher
+  position: Scientist
   affiliation: HRL Laboratories
   img: Matthew-Otten.jpeg
   alt: Picture of Matthew Otten
-  bio: [Bio]
+  bio: >
+    Matthew Otten is a scientist at HRL Laboratories broadly studying the theoretical and computational aspects of quantum computing. After obtaining a B.S. in Physics from Illinois Tech, he attended Cornell to obtain his Ph.D., also in physics. He spent three years as the Maria Goeppert Mayer fellow at Argonne National Laboratory. Dr. Otten’s work includes new quantum algorithms, large-scale simulations of various quantum systems, and methods for understanding and mitigating inevitable noise on quantum computers and sensors.
 
 - name: Rakshya Khatiwada
   tag: Rakshya-Khatiwada
