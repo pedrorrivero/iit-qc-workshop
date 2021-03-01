@@ -6,6 +6,38 @@
   website: https://quantum.hrl.com/careers/
   contact: mjotten [at] hrl [dot] com
 
+- position: [Position]
+  company: IBM
+  dates: [Dates]
+  location: [Location]
+  description: [Description]
+  website: https://www.ibm.com/blogs/research/2020/09/2021-ibmquantum-internships/
+  contact:
+
+- position: [Position]
+  company: IBM (Undergraduate)
+  dates: [Dates]
+  location: [Location]
+  description: [Description]
+  website: https://careers.ibm.com/ShowJob/Id/1079065/Research-Summer-2021-Quantum-Intern-Undergraduate/?lang=en
+  contact:
+
+- position: [Position]
+  company: IBM (Masters)
+  dates: [Dates]
+  location: [Location]
+  description: [Description]
+  website: https://careers.ibm.com/ShowJob/Id/955994/Research-Summer-Intern-Graduate-(Masters)-2021/?lang=en
+  contact:
+
+- position: [Position]
+  company: IBM (PhD)
+  dates: [Dates]
+  location: [Location]
+  description: [Description]
+  website: https://careers.ibm.com/ShowJob/Id/955999/Research-Summer-Intern-PhD-2021/?lang=en
+  contact:
+
 # - position: [Position]
 #   company: [Company]
 #   dates: [Dates]
