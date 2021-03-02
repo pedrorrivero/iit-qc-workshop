@@ -1,5 +1,5 @@
 # URL
-baseurl: "/iit-qc-workshop" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "pedrorrivero.github.io" # the base hostname & protocol for your site
 
 # Info
