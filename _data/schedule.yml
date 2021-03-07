@@ -15,7 +15,7 @@
 
     - time: 9:45 AM - 10:15 AM
       title: DWave Quantum computing basics
-      speaker: Joel Gottlieb (DWave)
+      speaker: #Joel Gottlieb (DWave)
       location:
       abstract: Introduction to DWave's quantum computers and systems.
     - time: 10:15 AM - 10:45 AM
