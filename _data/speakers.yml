@@ -6,13 +6,13 @@
   alt: Picture of Steven Margolis
   bio: Steve Margolis, PMP, CISSP, has been in the IT business for more than 30 years.  He is an IBM Quantum Technical Ambassador and Client Technical Leader in IBM Federal. He previously held a variety of technical and sales positions at IBM.  During a 12-year absence from IBM, Steve worked as a Project Management, PMO and Earned Value Management consultant.
 
-- name: Joel Gottlieb
-  tag: Joel-Gottlieb
-  position: [Position]
-  affiliation: D-Wave
-  img: TBD.jpeg
-  alt: Picture of Joel Gottlieb
-  bio: [Bio]
+# - name: Joel Gottlieb
+#   tag: Joel-Gottlieb
+#   position: [Position]
+#   affiliation: D-Wave
+#   img: TBD.jpeg
+#   alt: Picture of Joel Gottlieb
+#   bio: [Bio]
 
 - name: Matthew Otten
   tag: Matthew-Otten
@@ -20,8 +20,7 @@
   affiliation: HRL Laboratories
   img: Matthew-Otten.jpeg
   alt: Picture of Matthew Otten
-  bio: >
-    Matthew Otten is a scientist at HRL Laboratories broadly studying the theoretical and computational aspects of quantum computing. After obtaining a B.S. in Physics from Illinois Tech, he attended Cornell to obtain his Ph.D., also in physics. He spent three years as the Maria Goeppert Mayer fellow at Argonne National Laboratory. Dr. Otten’s work includes new quantum algorithms, large-scale simulations of various quantum systems, and methods for understanding and mitigating inevitable noise on quantum computers and sensors.
+  bio: Matthew Otten is a scientist at HRL Laboratories broadly studying the theoretical and computational aspects of quantum computing. After obtaining a B.S. in Physics from Illinois Tech, he attended Cornell to obtain his Ph.D., also in physics. He spent three years as the Maria Goeppert Mayer fellow at Argonne National Laboratory. Dr. Otten’s work includes new quantum algorithms, large-scale simulations of various quantum systems, and methods for understanding and mitigating inevitable noise on quantum computers and sensors.
 
 - name: Rakshya Khatiwada
   tag: Rakshya-Khatiwada
@@ -29,8 +28,7 @@
   affiliation: Illinois Tech • Fermilab • QSC
   img: Rakshya-Khatiwada.jpeg
   alt: Picture of Rakshya Khatiwada
-  bio: >
-    Expert on low noise cryogenics and quantum sensors for next-generation dark matter detectors
+  bio: Low noise cryogenics and quantum sensors for next-generation dark matter detectors.
 
 - name: Robert McDermott
   tag: Robert-McDermott
@@ -38,8 +36,7 @@
   affiliation: University of Wisconsin Madison
   img: Robert-McDermott.jpeg
   alt: Picture of Robert McDermott
-  bio: >
-    Superconducting qubits (coherence, quantum measurement, scalable control, topological protection); hybrid quantum systems; dark matter detection
+  bio: Superconducting qubits (coherence, quantum measurement, scalable control, topological protection); hybrid quantum systems; dark matter detection.
 
 - name: Kin Chung Fong
   tag: KC-Fong
@@ -47,24 +44,7 @@
   affiliation: Raytheon BBN • Harvard University
   img: KC-Fong.jpeg
   alt: Picture of KC Fong
-  bio: >
-    I am a Scientist in Raytheon BBN Technology and an Associate of Physics Department at Harvard University. My research focuses on understanding the strongly interacting many-body phenomena and mesoscopic physics in quantum materials, and their applications to novel, high-sensitivity quantum detectors and quantum information science. Specifically, I am interested in (1) how the new paradigm of the electronic hydrodynamics modifies our conventional understandings of the electrical and thermal transport properties in condensed matter physics, and (2) its deep connection to the fundamental physics such as the chiral anomaly, anti-de Sitter/conformal field theory (AdS/CFT) bound, and quark-gluon plasma in the heavy ion collider. The material platforms of these experiments include, but not limited to, graphene, two-dimensional Van der Waals heterostructures, Dirac and Weyl semimetals, and topological materials. A prime example along this direction is my experiment demonstrating the breakdown of the Wiedemann-Franz law in graphene as the hydrodynamic Dirac fluid forms near the Dirac point. To overcome the experimental challenges, I have been developing the state-of-the-art measurement techniques to observe the phenomena in this new hydrodynamic regime. Understanding the quantum many-body systems can lead to new (3) quantum sensor applications, such as the graphene-based Josephson junction single photon detector for quantum computations, optics, and radioastronomy, (4) novel two-dimensional materials-based superconducting quantum devices, as well as (5) dark matter axion detection.  It has been my privilege to collaborate with many outstanding scientists. The interaction with them has inspired a lot of my research and makes my professional life colorful in many ways. I am grateful for the funding supports from ARO, NSA, and Raytheon BBN Technologies.
-
-- name: [Name]
-  tag: tag-1
-  position: [Position]
-  affiliation: [Affiliation]
-  img: TBD.jpeg
-  alt: Picture of [TBD]
-  bio: [Bio]
-
-- name: [Name]
-  tag: tag-2
-  position: [Position]
-  affiliation: [Affiliation]
-  img: TBD.jpeg
-  alt: Picture of [TBD]
-  bio: [Bio]
+  bio: Scientist in Raytheon BBN Technology and Associate of Physics Department at Harvard University. Strongly interacting many-body phenomena and mesoscopic physics in quantum materials, and their applications to novel, high-sensitivity quantum detectors and quantum information science.
 
 # - name: [Name]
 #   tag: tag-X

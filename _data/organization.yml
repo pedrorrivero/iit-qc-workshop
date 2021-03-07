@@ -4,8 +4,7 @@
   affiliation: Illinois Tech • Fermilab • QSC
   img: Rakshya-Khatiwada.jpeg
   alt: Picture of Rakshya Khatiwada
-  bio: >
-    Expert on low noise cryogenics and quantum sensors for next-generation dark matter detectors
+  bio: Low noise cryogenics and quantum sensors for next-generation dark matter detectors
 
 - name: John F. Zasadzinski
   tag: John-Zasadzinski
@@ -13,10 +12,7 @@
   affiliation: Illinois Tech • SQMS
   img: John-Zasadzinski.jpeg
   alt: Picture of John Zasadzinski
-  bio: >
-    My research interests primarily involve electron tunneling studies of novel superconductors using planar, point-contact and STM junctions. Materials include high temperature superconductors as well as the recently discovered CaC6 and MgB2. We were among the first groups to clearly observe two-band superconductivity in MgB2 and have recently observed very strong coupling in CaC6. Along with Prof. Liam Coffey, we have modified conventional Eliashberg theory to include d-wave pairing to analyze tunneling data in high Tc cuprates. We have shown that the spectral dip feature observed in tunneling spectra can be fit self- consistently and indicates that the pairing is due primarily to a narrow boson spectrum which appears to be the resonant spin excitation observed in neutron scattering.
-
-    I also have a renewed interest in the conventional, elemental superconductor Niobium. We are using tunneling spectroscopy to probe the surface superconductivity of Nb at the interface with its native oxide layers. This work has applications for the development of superconducting radio frequency (SRF) cavities which are used for particle accelerators including the proposed international linear collider (ILC). This work is being done in collaboration with Argonne and Fermi National Laboratorie.
+  bio: Electron tunneling studies of novel superconductors using planar, point-contact and STM junctions. Interest in the conventional, elemental superconductor Niobium, and its applications for the development of superconducting radio frequency (SRF) cavities which are used for particle accelerators including the proposed international linear collider (ILC).
 
 - name: Carlo U. Segre
   tag: Carlo-Segre
@@ -24,14 +20,7 @@
   affiliation: Illinois Tech
   img: Carlo-Segre.jpeg
   alt: Picture of Carlo Segre
-  bio: >
-    My research centers around the structure and electronic properties of complex materials including superconducting, magnetic, catalytic, and energy storage materials.
-
-    Experimental techniques used in my research include; material synthesis through arc-melting, powder metallurgy, and advanced chemical methods; structural characterization of the samples performed by x-ray powder diffraction and xray absorption fine structure; and measurement of electronic properties by resistivity, magnetic susceptibility, and x-ray absorption spectroscopy. Specific topics of interest include: structural and electrochemical properties of advanced battery materials; in-situ structural studies of catalytic materials for use in fuel cells; structural and electronic properties of magnetoelectric materials and other perovskite materials prepared in the form of nanoparticles and thin films; local structural studies of structural materials for use in nuclear reactors, including in-situ corrosion studies and characterization of nano-crystalline inclusions in steels; development of x-ray optics for synchrotron radiation experimentation.
-
-    I also am an active participant in the IIT Center for Synchrotron Radiation Research and Instrumentation (CSRRI); serving as Center Director and as Deputy Director of the Materials Research Collaborative Access Team (MRCAT) which operates an experimental facility for materials research at the Advanced Photon Source (APS). I have been involved in the development of crystal optic devices for delivery and detection of x-rays at synchrotron beamlines.
-
-    Since 1992, I have been involved with the International Bridge Building Committee. We organize the Chicago Regional Bridge Building Contest each winter and the International Bridge Building Contest in odd years. This contest has grown, over the past 37 years, to be an integral part of many High School Physical Science curricula.
+  bio: Structure and electronic properties of complex materials including superconducting, magnetic, catalytic, and energy storage materials. Active participant in the IIT Center for Synchrotron Radiation Research and Instrumentation (CSRRI); serving as Center Director and as Deputy Director of the Materials Research Collaborative Access Team (MRCAT) which operates an experimental facility for materials research at the Advanced Photon Source (APS).
 
 - name: Matthew Otten
   tag: Matthew-Otten
@@ -39,8 +28,7 @@
   affiliation: HRL Laboratories
   img: Matthew-Otten.jpeg
   alt: Picture of Matthew Otten
-  bio: >
-    Matthew Otten is a scientist at HRL Laboratories broadly studying the theoretical and computational aspects of quantum computing. After obtaining a B.S. in Physics from Illinois Tech, he attended Cornell to obtain his Ph.D., also in physics. He spent three years as the Maria Goeppert Mayer fellow at Argonne National Laboratory. Dr. Otten’s work includes new quantum algorithms, large-scale simulations of various quantum systems, and methods for understanding and mitigating inevitable noise on quantum computers and sensors.
+  bio: Matthew Otten is a scientist at HRL Laboratories broadly studying the theoretical and computational aspects of quantum computing. After obtaining a B.S. in Physics from Illinois Tech, he attended Cornell to obtain his Ph.D., also in physics. He spent three years as the Maria Goeppert Mayer fellow at Argonne National Laboratory. Dr. Otten’s work includes new quantum algorithms, large-scale simulations of various quantum systems, and methods for understanding and mitigating inevitable noise on quantum computers and sensors.
 
 - name: Pedro Rivero
   tag: Pedro-Rivero
@@ -48,7 +36,7 @@
   affiliation: Illinois Tech • Argonne National Laboratory
   img: Pedro-Rivero.jpeg
   alt: Picture of Pedro Rivero
-  bio: [Bio]
+  bio: Ph.D. candidate doing research in Quantum Computing as applied to physics simulation algorihtms. Main developer of QRAND, a quantum free and open source piece of software for generating quantum random numbers following arbitrary probability distributions.
 
 # - name: [Name]
 #   tag: tag-X
