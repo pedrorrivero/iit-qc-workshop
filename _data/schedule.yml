@@ -11,9 +11,8 @@
       title: IBM Quantum computing basics
       speaker: Steven Margolis (IBM)
       location:
-      abstract: >
-        For almost 40 years, quantum computing has intrigued and amazed scientists and non-scientists in its future possibility for solving problems that are intractable using classical computing. Over the last five years, IBM has made real quantum computers available on the cloud so that clients, students, and researchers can begin to learn and experiment with this new way of computing. This presentation will cover an introduction to quantum computing, the basic quantum computational principles, superposition, entanglement, and interference. You will see examples of actual quantum algorithms, and how to continue your exploration of the technology.
-        
+      abstract: For almost 40 years, quantum computing has intrigued and amazed scientists and non-scientists in its future possibility for solving problems that are intractable using classical computing. Over the last five years, IBM has made real quantum computers available on the cloud so that clients, students, and researchers can begin to learn and experiment with this new way of computing. This presentation will cover an introduction to quantum computing, the basic quantum computational principles, superposition, entanglement, and interference. You will see examples of actual quantum algorithms, and how to continue your exploration of the technology.
+
     - time: 9:45 AM - 10:15 AM
       title: DWave Quantum computing basics
       speaker: Joel Gottlieb (DWave)

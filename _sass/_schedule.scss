@@ -1,11 +1,11 @@
 .schedule {
   table-layout: fixed;
   width: 100%;
-  white-space: pre-wrap;
+  white-space: pre-line;
   word-wrap: break-word;
 
   td {
-    white-space: pre-wrap;
+    white-space: pre-line;
     word-wrap: break-word;
     text-overflow: ellipsis;
   }
@@ -39,6 +39,7 @@
   td + td {
     text-align: left;
     padding-left: 10px;
+    padding-bottom: 20px;
   }
 }
 
