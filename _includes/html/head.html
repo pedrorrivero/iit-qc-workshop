@@ -10,13 +10,13 @@
     </title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url | prepend: 'https://' }}">
 
     <!-- WEBSITE ICON IN BROWSER -->
     <link rel="source icon" type="image/x-icon" href="{{ '/img/favicon.ico?p=r' | relative_url }}"><!-- query string '?p=r' used to force icon to reload -->
 
     <!-- JEKYLL SEO -->
-    {% seo %}
+    {% comment %}{% seo %}{% endcomment %}
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
