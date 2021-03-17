@@ -8,11 +8,11 @@
   alt: Picture of IBM
   url: https://www.ibm.com/
 
-- name: D-Wave
-  img: DWave.png
-  alt: Picture of D-Wave
-  url: https://www.dwavesys.com/
-
+# - name: D-Wave
+#   img: DWave.png
+#   alt: Picture of D-Wave
+#   url: https://www.dwavesys.com/
+#
 # - name: TBD
 #   img: TBD.png
 #   alt: Picture of TBD

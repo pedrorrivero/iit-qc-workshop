@@ -6,13 +6,13 @@
   alt: Picture of Steven Margolis
   bio: Steve Margolis, PMP, CISSP, has been in the IT business for more than 30 years.  He is an IBM Quantum Technical Ambassador and Client Technical Leader in IBM Federal. He previously held a variety of technical and sales positions at IBM.  During a 12-year absence from IBM, Steve worked as a Project Management, PMO and Earned Value Management consultant.
 
-# - name: Joel Gottlieb
-#   tag: Joel-Gottlieb
-#   position: [Position]
-#   affiliation: D-Wave
-#   img: TBD.jpeg
-#   alt: Picture of Joel Gottlieb
-#   bio: [Bio]
+- name: Pedro Rivero
+  tag: Pedro-Rivero
+  position: Graduate Research Assistant
+  affiliation: Illinois Tech • Argonne National Laboratory
+  img: Pedro-Rivero.jpeg
+  alt: Picture of Pedro Rivero
+  bio: Ph.D. candidate doing research in Quantum Computing as applied to physics simulation algorihtms. Main developer of QRAND, a quantum free and open source piece of software for generating quantum random numbers following arbitrary probability distributions.
 
 - name: Matthew Otten
   tag: Matthew-Otten

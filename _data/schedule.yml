@@ -14,10 +14,11 @@
       abstract: For almost 40 years, quantum computing has intrigued and amazed scientists and non-scientists in its future possibility for solving problems that are intractable using classical computing. Over the last five years, IBM has made real quantum computers available on the cloud so that clients, students, and researchers can begin to learn and experiment with this new way of computing. This presentation will cover an introduction to quantum computing, the basic quantum computational principles, superposition, entanglement, and interference. You will see examples of actual quantum algorithms, and how to continue your exploration of the technology.
 
     - time: 9:45 AM - 10:15 AM
-      title: DWave Quantum computing basics
-      speaker: #Joel Gottlieb (DWave)
+      title: "QRAND: A quantum random number generator for arbitrary probability distributions"
+      speaker: Pedro Rivero (IIT+ANL)
       location:
-      abstract: Introduction to DWave's quantum computers and systems.
+      abstract: "Random numbers are everywhere. Computer algorithms, data encryption, physical simulations, and even the arts use them all the time. There is one problem though: it turns out that they are actually very difficult to produce in large amounts. Luckily, the probabilistic nature of quantum computers makes these devices particularly useful for the task. QRAND introduces an interface layer between NumPy and Qiskit, along with some useful functionality that enables the production of quantum random numbers (QRN) for a wide variety of probability distributions. This is accomplished by transforming uniform probability distributions produced in IBMQ's quantum devices, through NumPy's random module."
+
     - time: 10:15 AM - 10:45 AM
       title: Noise and Error correction
       speaker: Matthew Otten (HRL labs)
@@ -35,11 +36,13 @@
       speaker: Rakshya Khatiwada (FNAL+IIT)
       location:
       abstract:
+
     - time: 11:30 AM - 12:00 PM
       title: Superconducting qubits in quantum computing and sensors
       speaker: Robert McDermott (University of Wisconsin Madison)
       location:
       abstract:
+
     - time: 12:00 PM - 12:30 PM
       title: Graphene devices and qubits for quantum sensing
       speaker: KC Fong (Raytheon BBN)
@@ -63,16 +66,18 @@
       speaker:
       location:
       abstract:
+
     - time: 3:15 PM - 3:30 PM
       title: BREAK
       speaker:
       location:
       abstract:
-    - time: 3:30 PM - 5:00 PM
-      title: DWave tutorial
-      speaker:
-      location:
-      abstract:
+
+    # - time: 3:30 PM - 5:00 PM
+    #   title: DWave tutorial
+    #   speaker:
+    #   location:
+    #   abstract:
 
 # -
 #   date: March 4, 1801
