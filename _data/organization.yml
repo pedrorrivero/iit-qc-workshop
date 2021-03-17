@@ -33,7 +33,7 @@
 - name: Pedro Rivero
   tag: Pedro-Rivero
   position: Graduate Research Assistant
-  affiliation: Illinois Tech • Argonne National Laboratory
+  affiliation: Illinois Tech • Argonne N.L.
   img: Pedro-Rivero.jpeg
   alt: Picture of Pedro Rivero
   bio: Ph.D. candidate doing research in Quantum Computing as applied to physics simulation algorihtms. Main developer of QRAND, a quantum free and open source piece of software for generating quantum random numbers following arbitrary probability distributions.
