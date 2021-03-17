@@ -7,9 +7,9 @@
                     <h2 class="section-heading">Participants</h2>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="display:flex; justify-content:space-evenly;">
                 {% for sponsor in site.data.sponsors %}
-                  <div class="col-md-4 col-sm-6">
+                  <div class="col-md-5 col-sm-10">
                       <a href="{{ sponsor.url }}" class="portfolio-link" data-toggle="modal">
                           <img src="{{ sponsor.img | prepend: 'img/sponsors/' | relative_url }}" class="img-responsive img-centered" alt="{{ sponsor.alt }}">
                       </a>
